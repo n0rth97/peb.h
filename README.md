@@ -8,6 +8,8 @@ A header-only, std independent library to get function address from EAT using pe
 
 int main(void)
 {
-  printf("[Info] NtAllocateVirtualMemory: %#02x\n", ResolveFunction(L"ntdll.dll", "NtAllocateVirtualMemory"));
+    printf("[Info] NtAllocateVirtualMemory: %#02x\n", ResolveFunction(L"ntdll.dll", "NtAllocateVirtualMemory"));
+
+    return 0;
 }
 ```
