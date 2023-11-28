@@ -3,7 +3,8 @@ A header-only, std independent library to get function address from EAT using pe
 
 # Usage
 ```c
-#include "peb.h"
+#include <stdio.h>
+#include "Peb.h"
 
 int main(void)
 {
