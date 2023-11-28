@@ -1,10 +1,10 @@
 # Peb.h
 A header-only, std independent library to get function address from EAT using peb. 
 
-# Compatibility
+## Compatibility
 Works with MSVC and Mingw.
 
-# Usage
+## Usage
 ```c
 #include <stdio.h>
 #include "Peb.h"
